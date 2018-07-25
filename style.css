@@ -1,0 +1,130 @@
+#header{
+  font-size:25px;
+  margin-left:230px;/*Homepage 왼쪽 여백*/
+  text-decoration: none;
+
+}
+
+#section{
+            padding-left:880px;/*공지사항 글씨 왼쪽 여백*/
+            width:560px;
+            height:100%;
+            padding-top: 5px;
+            }
+.menubar{
+border:none;
+border:0px;
+margin:auto;
+padding:0px;
+width:1238px;/*메뉴바길이*/
+
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+font-size:13px;/*메뉴바 글씨크기*/
+font-weight:bold;
+}
+#aside{
+        width:650px;
+        float : left;
+        padding-top: 15px;
+        padding-left: 200px;/*사진왼쪽여백*/
+        }
+footer{
+                clear:center;
+                list-style-type:none;
+                padding-left: 200px;/*주석왼쪽 여백*/
+                }
+#yungu{
+/*연구계획 왼쪽 공백*/
+}
+
+.menubar ul{
+background: rgb(109,109,109);
+height:30px;
+
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.menubar li{
+float:left;
+/*높이설정하면 빈공간만 늘어남*/
+padding-left: 70px;/*메뉴바 글자사이 공간*/
+padding-right: 70px;
+
+}
+
+.menubar li a{
+background: rgb(109,109,109);
+color:#cccccc;
+display:block;
+font-weight:normal;
+line-height:30px;/*이거랑 위에 .menubar ul이랑 같이수정해야 메뉴바 얇아져*/
+margin:0px;
+padding:0px 25px;
+text-align:center;
+text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+background: rgb(71,71,71);
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.menubar li ul{
+background: rgb(109,109,109);
+display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul{
+display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+background: rgb(109,109,109);
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+background:none;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background: rgb(71,71,71);
+border:0px;
+color:#ffffff;
+text-decoration:none;
+}
+
+.menubar p{
+clear:left;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
